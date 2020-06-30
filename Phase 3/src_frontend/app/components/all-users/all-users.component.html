@@ -1,0 +1,56 @@
+<body>
+
+	<nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+	  <a class="navbar-brand" routerLink ="/administrator"> Home </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <i class="fas fa-hamburger"></i>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	    </ul>
+
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" routerLink="/">Log Out </a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div id="heading_admin">
+		<h2> Here is the list of all the clients in the system </h2>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class=" col-lg-12 col-md-12 col-sm-12">
+				<div id="tablee" style="overflow-x:auto;">
+					<table class="table">
+					  <thead id="pom">
+					    <tr>
+                <th> Client's first name </th>
+                <th> Client's last name </th>
+                <th> Client's username </th>
+                <th> Client's ID </th>
+					      <th> Decision </th>
+					    </tr>
+					  </thead>
+					  <tbody *ngFor = "let user of users">
+					    <tr>
+					      <td>{{user.firstName}}</td>
+                <td>{{user.lastName}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.id}}</td>
+					      <td>  <button class="btn btn-info decision" (click)="editUser(user._id)"> <i class="fas fa-pen"></i> </button>
+					      		<button class="btn btn-danger decision" (click)="removeUser(user._id)"> <i class="fas fa-times"></i> </button>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+				</div>
+			</div>
+			</div>
+        </div>
+</body>

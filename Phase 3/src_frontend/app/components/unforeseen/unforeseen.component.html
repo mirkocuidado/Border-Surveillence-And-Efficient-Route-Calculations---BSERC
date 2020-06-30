@@ -1,0 +1,69 @@
+
+
+<body>
+
+  <nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand" routerLink = "">Home </a>
+    <a class="navbar-brand" routerLink = "/all-users">All clients </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-hamburger"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Log Out </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+  <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+          <form class="text-center border border-light p-5">
+
+              <p class="h4 mb-4">Unforeseen circumstances</p>
+
+              <select class="browser-default custom-select mb-4" name="borderNameToChange" [(ngModel)]="borderNameToChange">
+                  <option *ngFor="let p of borders" value="{{p.name}}">{{p.name}}, {{p.country}}</option>
+              </select>
+
+
+              <div class="form-group">
+                  <textarea class="form-control rounded-0" name="message" id="exampleFormControlTextarea2" rows="2" placeholder="Message" [(ngModel)]="message"></textarea>
+              </div>
+
+              <div class="form-group">
+                   <textarea class="form-control rounded-0" name="timeToWait" placeholder="Estimated delay time in minutes" min="0" [(ngModel)]="timeToWait"></textarea>
+              </div>
+
+              <button class="btn btn-info" type="submit" (click)="sendUpdate()">Send</button>
+
+          </form>
+
+      </div>
+      <div class="col-sm-3"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <form class="text-center border border-light p-5">
+        <p class="h4 mb-4">Border working normally again</p>
+
+        <select class="browser-default custom-select mb-4" name="borderWorkingNormally" [(ngModel)]="borderWorkingNormallyString">
+          <option *ngFor="let p of bordersWithMessage" value="{{p.name}}">{{p.name}}, {{p.country}}</option>
+      </select>
+
+      <button class="btn btn-info" type="submit" (click)="borderWorkingNormally()">Send</button>
+      </form>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+</body>
+

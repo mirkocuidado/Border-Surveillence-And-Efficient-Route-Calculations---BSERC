@@ -1,0 +1,40 @@
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4b8"},"lat":"45.9299171","lng":"18.9328585","name":"Backi Breg","link":"no","country":"Hungary","message":"Test","timeToWait":10}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4b9"},"lat":"46.1045594","lng":"19.1872145","name":"Horgos","link":"yes","country":"Hungary","message":"Test","timeToWait":10}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4ba"},"lat":"46.1658447","lng":"19.5358363","name":"Kelebija","link":"yes","country":"Hungary","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4bb"},"lat":"45.7501646","lng":"20.6979632","name":"Srpska Crnja","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4bc"},"lat":"45.4709963","lng":"20.8472235","name":"Jasa Tomic","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4bd"},"lat":"45.2291257","lng":"21.2742652","name":"Vatin","link":"yes","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4be"},"lat":"44.9009187","lng":"21.5531702","name":"Kaludjerovo","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4bf"},"lat":"44.2992447","lng":"22.5414784","name":"Djerdap","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c0"},"lat":"45.8773044","lng":"20.5724566","name":"Nakovo","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c1"},"lat":"44.1550155","lng":"22.6202481","name":"Mokranje","link":"no","country":"Bulgaria","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c2"},"lat":"43.8347161","lng":"22.3341476","name":"Vraska Cuka","link":"no","country":"Bulgaria","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c3"},"lat":"42.9974175","lng":"22.8243116","name":"Gradina","link":"yes","country":"Bulgaria","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c4"},"lat":"42.7970414","lng":"22.4453723","name":"Strezimirovci","link":"no","country":"Bulgaria","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c5"},"lat":"42.2398219","lng":"21.7005096","name":"Presevo","link":"no","country":"Macedonia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c6"},"lat":"42.2161494","lng":"21.8008097","name":"Prohor Pcinjski","link":"no","country":"Macedonia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c7"},"lat":"42.1482804","lng":"21.2897792","name":"Djeneral Jankovic","link":"no","country":"Macedonia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c8"},"lat":"42.3023648","lng":"20.3808081","name":"Cafa Prusit","link":"no","country":"Albania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4c9"},"lat":"45.991516","lng":"20.355459","name":"Vrbnica","link":"no","country":"Romania","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4ca"},"lat":"43.337496","lng":"19.4754777","name":"Jabuka","link":"yes","country":"Montenegro","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4cb"},"lat":"43.1848139","lng":"19.7567419","name":"Brodarevo","link":"no","country":"Montenegro","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4cc"},"lat":"42.9349891","lng":"20.2498685","name":"Vuca","link":"no","country":"Montenegro","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4cd"},"lat":"42.8004114","lng":"20.218918","name":"Kula","link":"no","country":"Montenegro","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4ce"},"lat":"42.6813245","lng":"20.0181392","name":"Cakor","link":"no","country":"Montenegro","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4cf"},"lat":"44.8789419","lng":"19.079705","name":"Jamena","link":"no","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d0"},"lat":"44.9166958","lng":"19.3016991","name":"Sremska Raca","link":"yes","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d1"},"lat":"44.776066","lng":"19.3400447","name":"Badovinci","link":"no","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d2"},"lat":"44.5407242","lng":"19.1825751","name":"Trbusnica","link":"yes","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d3"},"lat":"44.4035613","lng":"19.1240351","name":"Mali Zvornik","link":"yes","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d4"},"lat":"44.2032302","lng":"19.3589482","name":"Ljubovija","link":"no","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d5"},"lat":"43.9745125","lng":"19.5425309","name":"Bajina Basta","link":"no","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d6"},"lat":"43.6004472","lng":"19.4911529","name":"Uvac","link":"no","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d7"},"lat":"43.7628346","lng":"19.4681597","name":"Kotroman","link":"yes","country":"Bosnia and Herzegovina","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d8"},"lat":"45.0472251","lng":"19.1048072","name":"Batrovci","link":"yes","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4d9"},"lat":"45.1546055","lng":"19.1735405","name":"Sid","link":"yes","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4da"},"lat":"45.1463277","lng":"19.2975703","name":"Principovac","link":"no","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4db"},"lat":"45.2168168","lng":"19.4308423","name":"Nestin","link":"no","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4dc"},"lat":"45.2396043","lng":"19.3964538","name":"Backa Palanka","link":"no","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4dd"},"lat":"45.5292322","lng":"19.085623","name":"Bogojevo","link":"no","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4de"},"lat":"45.8447133","lng":"18.8645074","name":"Bezdan","link":"no","country":"Croatia","message":"","timeToWait":0}
+{"_id":{"$oid":"5ef88f28b99caa13ec06d4df"},"lat":"42.9103584","lng":"20.3390219","name":"Spiljani","link":"yes","country":"Crna Gora","message":"","timeToWait":0}

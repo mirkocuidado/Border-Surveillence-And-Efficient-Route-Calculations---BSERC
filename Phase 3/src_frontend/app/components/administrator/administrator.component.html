@@ -1,0 +1,58 @@
+<body>
+
+	<nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand" routerLink = "/all-users">All clients </a>
+    <a class="navbar-brand" routerLink = "/update-border">Update border </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <i class="fas fa-hamburger"></i>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	    </ul>
+
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" routerLink="/">Log Out </a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div id="heading_admin">
+		<h2> Welcome back, master! Here are the new requests! Make wise decisions! </h2>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class=" col-lg-12 col-md-12 col-sm-12">
+				<div id="tablee" style="overflow-x:auto;">
+					<table class="table">
+					  <thead id="pom">
+					    <tr>
+                <th> Client's first name </th>
+                <th> Client's last name </th>
+                <th> Client's username </th>
+                <th> Client's ID </th>
+					      <th> Desicion</th>
+					    </tr>
+					  </thead>
+					  <tbody *ngFor="let request of requests">
+					    <tr>
+                <td>{{ request.firstName }}</td>
+                <td>{{ request.lastName }}</td>
+                <td>{{ request.username }}</td>
+                <td>{{ request.id }}</td>
+					      <td>
+                  <button class="btn btn-success decision" (click)="addUser(request._id)"> <i class="fas fa-check"></i> </button>
+					      	<button class="btn btn-danger decision" (click)="deleteRequest(request._id)"> <i class="fas fa-times"></i> </button>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+				</div>
+			</div>
+    </div>
+	</div>
+</body>

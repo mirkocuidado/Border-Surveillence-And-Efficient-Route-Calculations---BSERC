@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5ef65d83e6fd5331e80ed384"},"username":"Dika141","password":"D!ksjepro98","type":"administrator","firstName":"Dimitrije","id":"2404998732523","lastName":"Milosevic","email":"dmilosevic141@gmail.com","birthDate":"24-04-1998","birthPlace":"Pirot"}
+{"_id":{"$oid":"5ef721fb9f6fab309430a4a1"},"firstName":"Mirko","lastName":"Krajcer","username":"cuidado38","password":"M!rko123","type":"user","id":"2004998732523","email":"mirko.krajcer@yahoo.com","birthDate":{"$date":"1998-02-04T00:00:00Z"},"birthPlace":"Resnik","__v":0}

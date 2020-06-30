@@ -1,0 +1,106 @@
+<body>
+<nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-hamburger"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">Log Out </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row" id="content">
+  <div class="col-lg-2 col-md-2 col-sm-2 divv"></div>
+  <div class="col-lg-8 col-md-8 col-sm-8 dika">
+      <form>
+        <table>
+        <tr>
+          <td>
+            <label for="country">Choose a country you want to go through:</label>
+          </td>
+          <td>
+            <select id="country" name="country" [(ngModel)]="country">
+              <option value="Hungary">Hungary</option>
+              <option value="Romania">Romania</option>
+              <option value="Bulgaria">Bulgaria</option>
+              <option value="Macedonia">Macedonia</option>
+              <option value="Albania">Albania</option>
+              <option value="Montenegro">Montenegro</option>
+              <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+              <option value="Croatia">Croatia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="fdestination">Is your final destination in this country?</label>
+          </td>
+          <td>
+            <input type="radio" value="yes" name="decision" [(ngModel)]="bla" id="fdestination">Yes
+            <input type="radio" value="no" name="decision" [(ngModel)]="bla" id="fdestination">No
+          </td>
+        </tr>
+        <tr *ngIf="bla=='yes'">
+            <td>
+              <label for="destination">Final destination:</label>
+            </td>
+            <td>
+              <input type="text" name="destination" id="destination" [(ngModel)]="finalDest">
+            </td>
+        </tr>
+        <tr *ngIf="bla=='yes'">
+          <td colspan="2">
+            <button type="button" class="btn btn-info" (click)="search1()">Search</button>
+          </td>
+        </tr>
+        <tr *ngIf="bla=='no'">
+          <td colspan="2">
+            <button type="button" class="btn btn-info" (click)="search2()">Search</button>
+          </td>
+        </tr>
+        <tr *ngIf="bla=='no' && flag == true">
+          <td colspan="2">
+            <span *ngIf="chosenBorder.link == 'yes'">Camera footage is available <a target="_blank" href="http://www.mup.gov.rs/wps/portal/sr/kamer%D0%B5/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDY0sjTyM3Q18DAwtDA0CvY0cA4wCvI0MjMz1g4uL4oOC45V9Ekvy9AuyHRUBQMyRTQ!!/#!">here</a></span>
+            <span *ngIf="chosenBorder.link == 'no'">Republic of Serbia does not provide camera footage.</span>
+          </td>
+        </tr>
+        <tr *ngIf="bla == 'yes' && showMapBoolean == true">
+          <td *ngIf="chosenBorder != null">
+            {{ chosenBorder.name }} is your best option!
+            <span *ngIf="chosenBorder.link == 'yes'">Camera footage is available <a target="_blank" href="http://www.mup.gov.rs/wps/portal/sr/kamer%D0%B5/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDY0sjTyM3Q18DAwtDA0CvY0cA4wCvI0MjMz1g4uL4oOC45V9Ekvy9AuyHRUBQMyRTQ!!/#!">here</a></span>
+            <span *ngIf="chosenBorder.link == 'no'">Republic of Serbia does not provide camera footage.</span>
+          </td>
+          <td>
+            <button class="btn btn-success" type="button" (click)="showMap()">Show Map</button>
+          </td>
+        </tr>
+        </table>
+      </form>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2 divv"></div>
+</div>
+<div *ngIf="flag == true && bla=='yes'">
+  <agm-map appDirectionsMap>
+      <agm-direction [origin]="origin"
+                      [destination]="destination">
+      </agm-direction>
+      <agm-direction [origin]="destination"
+                      [destination]="destination2">
+      </agm-direction>
+  </agm-map>
+</div>
+<div *ngIf="flag == true && bla=='no'">
+  <agm-map appDirectionsMap>
+      <agm-direction [origin]="origin"
+                      [destination]="destination">
+      </agm-direction>
+  </agm-map>
+</div>
+</body>

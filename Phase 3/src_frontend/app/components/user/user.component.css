@@ -1,0 +1,41 @@
+body{
+  background-image: url('../../../assets/imgs/client-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+agm-map {
+  height: 600px;
+}
+
+#navbar{
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 40px;
+}
+
+#navbar a{
+	color:white;
+	font-weight: bold;
+}
+
+#navbar a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar-toggler{
+	background-color: white;
+}
+
+#content {
+  text-align: center;
+  font-weight: bold;
+  font-style: initial;
+}
+
+.dika {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}

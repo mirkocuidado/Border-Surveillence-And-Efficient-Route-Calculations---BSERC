@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5efb20aeca8e483b0cb86c52"},"username":"pera123","password":"D!ksjepro98","type":"user","firstName":"Petar","lastName":"Petrovic","email":"pera@gmail.com","id":"2402998732523","birthDate":{"$date":"1998-02-04T00:00:00Z"},"birthPlace":"Nis","__v":0}
+{"_id":{"$oid":"5efb20d7ca8e483b0cb86c53"},"username":"mare123","password":"D!ksjepro98","type":"user","firstName":"Marko","lastName":"Markovic","email":"mare@gmail.com","id":"2203999732523","birthDate":{"$date":"1998-02-04T00:00:00Z"},"birthPlace":"Subotica","__v":0}
